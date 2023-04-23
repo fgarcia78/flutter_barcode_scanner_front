@@ -61,7 +61,7 @@ public class CameraSource {
     private Context mContext;
     private final Object mCameraLock = new Object();
     private Camera mCamera;
-    private int mFacing = CAMERA_FACING_BACK;
+    private int mFacing = CAMERA_FACING_FRONT;
     private int mRotation;
     private Size mPreviewSize;
 
